@@ -1,0 +1,362 @@
+[
+    {
+        "wilaya_code": "01",
+        "wilaya_name": "أدرار\nroute de lycée EL MEGHILI derrière l'ancien conseil judiciaire",
+        "address": "route de lycée EL MEGHILI derrière l'ancien conseil judiciaire - ADRAR",
+        "delay": "3-7 ايام",
+        "price": "1000 دج",
+        "delivery_office_price": "مكتب التوصيل 600 دج"
+    },
+    {
+        "wilaya_code": "02",
+        "wilaya_name": "الشلف\nHAY BENSSOUNA 48 LOGEMENTS CNP BLOCK D a cote de CASNOS\n1-2 ايام",
+        "address": "HAY BENSSOUNA 48 LOGEMENTS CNP BLOCK D a cote de CASNOS",
+        "delay": "1-2 ايام",
+        "price": "600 دج",
+        "delivery_office_price": "مكتب التوصيل 350 دج"
+    },
+    {
+        "wilaya_code": "03",
+        "wilaya_name": "الأغواط\nrue ben sahnoun a cote de centre d'imagerie laghouati, cité el makam, laghouat\n1-3 ايام",
+        "address": "rue ben sahnoun a cote de centre d'imagerie laghouati, cité el makam, laghouat",
+        "delay": "1-3 ايام",
+        "price": "750 دج",
+        "delivery_office_price": "مكتب التوصيل 500 دج"
+    },
+    {
+        "wilaya_code": "04",
+        "wilaya_name": "أم البواقي\nAin fekroun, a 300 m station des bus a cote de l'agence CNAS\n1-3 ايام",
+        "address": "Ain fekroun, a 300 m station des bus a cote de l'agence CNAS",
+        "delay": "1-3 ايام",
+        "price": "700 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "05",
+        "wilaya_name": "باتنة\nrond point de cite 1020 Igtms la route vers CASNOS\n1-3 ايام",
+        "address": "rond point de cite 1020 Igtms la route vers CASNOS",
+        "delay": "1-3 ايام",
+        "price": "650 دج",
+        "delivery_office_price": "مكتب التوصيل 350 دج"
+    },
+    {
+        "wilaya_code": "06",
+        "wilaya_name": "بجاية\npromotionn immobilière EPBTP bloc 4 en face centre commercial boubaya\n1-3 ايام",
+        "address": "promotionn immobilière EPBTP bloc 4 en face centre commercial boubaya",
+        "delay": "1-3 ايام",
+        "price": "550 دج",
+        "delivery_office_price": "مكتب التوصيل 300 دج"
+    },
+    {
+        "wilaya_code": "07",
+        "wilaya_name": "بسكرة\nCité 350 logements Participatifs Zone ouest Bloc 09 local 191\n2-4 ايام",
+        "address": "Cité 350 logements Participatifs Zone ouest Bloc 09 local 191",
+        "delay": "2-4 ايام",
+        "price": "800 دج",
+        "delivery_office_price": "مكتب التوصيل 500 دج"
+    },
+    {
+        "wilaya_code": "08",
+        "wilaya_name": "بشار\ncentre ville just a coté de laboratoire d'analyses ABSI",
+        "address": "centre ville just a coté de laboratoire d'analyses ABSI - BECHAR",
+        "delay": "3-5 ايام",
+        "price": "1000 دج",
+        "delivery_office_price": "مكتب التوصيل 700 دج"
+    },
+    {
+        "wilaya_code": "09",
+        "wilaya_name": "البليدة\nmonponsie en face lycée omar ibn khatab\n24 ساعة",
+        "address": "monponsie en face lycée omar ibn khatab",
+        "delay": "24 ساعة",
+        "price": "250 دج",
+        "delivery_office_price": "مكتب التوصيل 0 دج"
+    },
+    {
+        "wilaya_code": "10",
+        "wilaya_name": "البويرة\nCadat B ville de bouira\n1-2 ايام",
+        "address": "Cadat B ville de bouira",
+        "delay": "1-2 ايام",
+        "price": "600 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "11",
+        "wilaya_name": "تمنراست\ncité el horfra sarsoufa à coté du SEAL\n1-3 ايام",
+        "address": "cité el horfra sarsoufa à coté du SEAL",
+        "delay": "1-3 ايام",
+        "price": "1200 دج",
+        "delivery_office_price": "مكتب التوصيل 600 دج"
+    },
+    {
+        "wilaya_code": "12",
+        "wilaya_name": "تبسة\nSkanska, citè el Amel derrière la grande mosquèe\n1-3 ايام",
+        "address": "Skanska, citè el Amel derrière la grande mosquèe",
+        "delay": "1-3 ايام",
+        "price": "700 دج",
+        "delivery_office_price": "مكتب التوصيل 450 دج"
+    },
+    {
+        "wilaya_code": "13",
+        "wilaya_name": "تلمسان\nRue de Chetouane A coté de la station d'essence sidi said\n1-3 ايام",
+        "address": "Rue de Chetouane A coté de la station d'essence sidi said",
+        "delay": "1-3 ايام",
+        "price": "700 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "14",
+        "wilaya_name": "تيارت\nen face mosquée EL SALEM, EPLF tiaret ville\n1-3 ايام",
+        "address": "en face mosquée EL SALEM, EPLF tiaret ville",
+        "delay": "1-3 ايام",
+        "price": "700 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "15",
+        "wilaya_name": "تيزي وزو\nEn face les batiments blues\n1-2 ايام",
+        "address": "En face les batiments blues",
+        "delay": "1-2 ايام",
+        "price": "550 دج",
+        "delivery_office_price": "مكتب التوصيل 350 دج"
+    },
+    {
+        "wilaya_code": "16",
+        "wilaya_name": "الجزائر\nBirkhadem, CHEMAIN ROMAIN 07-70",
+        "address": "Birkhadem, CHEMAIN ROMAIN 07-70- 23-81-51 CHERAGA: a cote de l'institut pastor 07-70-80-31-37 REGHAIA: cité LPP bourada - reghaia 05-55-21-42-18",
+        "delay": "24 ساعة",
+        "price": "250 دج",
+        "delivery_office_price": "مكتب التوصيل 100 دج"
+    },
+    {
+        "wilaya_code": "17",
+        "wilaya_name": "الجلفة\ncité 05 juillet vers l'université ZIAN ACHOUR en face commisariat centrale\n1-2 ايام",
+        "address": "cité 05 juillet vers l'université ZIAN ACHOUR en face commisariat centrale",
+        "delay": "1-2 ايام",
+        "price": "700 دج",
+        "delivery_office_price": "مكتب التوصيل 500 دج"
+    },
+    {
+        "wilaya_code": "18",
+        "wilaya_name": "جيجل\nrue bouicher messaoud cité agouf camp chevalier\n1-3 ايام",
+        "address": "rue bouicher messaoud cité agouf camp chevalier",
+        "delay": "1-3 ايام",
+        "price": "600 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "19",
+        "wilaya_name": "سطيف\n,SETIF : Cite el hidab 50 lgtms, LST /////////////// EULMA: à coté d un cafè STARBUCKS\n1-3 ايام",
+        "address": ",SETIF : Cite el hidab 50 lgtms, LST /////////////// EULMA: à coté d un cafè STARBUCKS",
+        "delay": "1-3 ايام",
+        "price": "550 دج",
+        "delivery_office_price": "مكتب التوصيل 350 دج"
+    },
+    {
+        "wilaya_code": "20",
+        "wilaya_name": "سعيدة\nRue Belarbi Laaredj sur la ligne de 20 l'hotel EL MORDJANE",
+        "address": "Rue Belarbi Laaredj sur la ligne de 20 l'hotel EL MORDJANE - SAIDA centre ville",
+        "delay": "1-3 ايام",
+        "price": "750 دج",
+        "delivery_office_price": "مكتب التوصيل 450 دج"
+    },
+    {
+        "wilaya_code": "21",
+        "wilaya_name": "سكيكدة\na cote du centre régional du service national et du complexe des jeunes des freres SAKER 07-70-13-41-27\n1-3 ايام",
+        "address": "a cote du centre régional du service national et du complexe des jeunes des freres SAKER 07-70-13-41-27",
+        "delay": "1-3 ايام",
+        "price": "650 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "22",
+        "wilaya_name": "سيدي بلعباس\nCité 144 logts bloc A2 SIDI DJILAL en face cafétéria golden 07-73-33-69-02 07-70-39-71-17 07-72-14-45-58\n1-3 ايام",
+        "address": "Cité 144 logts bloc A2 SIDI DJILAL en face cafétéria golden 07-73-33-69-02 07-70-39-71-17 07-72-14-45-58",
+        "delay": "1-3 ايام",
+        "price": "650 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "23",
+        "wilaya_name": "عنابة\ncité AADL sidi achour, BT W04 magasin N°03",
+        "address": "cité AADL sidi achour, BT W04 magasin N°03- annaba 07-74-72-95-27",
+        "delay": "1-3 ايام",
+        "price": "550 دج",
+        "delivery_office_price": "مكتب التوصيل 350 دج"
+    },
+    {
+        "wilaya_code": "24",
+        "wilaya_name": "قالمة\na cote ecole ennajah centre ville 07-97-80-47-45\n1-3 ايام",
+        "address": "a cote ecole ennajah centre ville 07-97-80-47-45",
+        "delay": "1-3 ايام",
+        "price": "700 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "25",
+        "wilaya_name": "قسنطينة\nEPLF 864 logements ali mendili nouvelle ville\n1-3 ايام",
+        "address": "EPLF 864 logements ali mendili nouvelle ville",
+        "delay": "1-3 ايام",
+        "price": "550 دج",
+        "delivery_office_price": "مكتب التوصيل 350 دج"
+    },
+    {
+        "wilaya_code": "26",
+        "wilaya_name": "المدية\npole urbain en face centre commercial et a cote de la station d'essence ben hafri\n1-2 ايام",
+        "address": "pole urbain en face centre commercial et a cote de la station d'essence ben hafri",
+        "delay": "1-2 ايام",
+        "price": "600 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "27",
+        "wilaya_name": "مستغانم\nchamouma en face la residence universitaire 2200 lits houari boumedier\n1-3 ايام",
+        "address": "chamouma en face la residence universitaire 2200 lits houari boumedier",
+        "delay": "1-3 ايام",
+        "price": "600 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "28",
+        "wilaya_name": "المسيلة\nquartier SOUNITAX, la route vers la station des bus a cote du laboratoire d'analyse médicale EL CHIFAA\n2-4 ايام",
+        "address": "quartier SOUNITAX, la route vers la station des bus a cote du laboratoire d'analyse médicale EL CHIFAA",
+        "delay": "2-4 ايام",
+        "price": "650 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "29",
+        "wilaya_name": "معسكر\nRue bakhlouf adda en face docteur REFSI\n1-3 ايام",
+        "address": "Rue bakhlouf adda en face docteur REFSI",
+        "delay": "1-3 ايام",
+        "price": "650 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "30",
+        "wilaya_name": "ورقلة\nRue el nacer a coté du clinique dentaire boukhris\n2-4 ايام",
+        "address": "Rue el nacer a coté du clinique dentaire boukhris",
+        "delay": "2-4 ايام",
+        "price": "800 دج",
+        "delivery_office_price": "مكتب التوصيل 500 دج"
+    },
+    {
+        "wilaya_code": "31",
+        "wilaya_name": "وهران\n\"akid lotfi enface la poste pré du commissariat 9ème \"\n1-3 ايام",
+        "address": "\"akid lotfi enface la poste pré du commissariat 9ème \"",
+        "delay": "1-3 ايام",
+        "price": "500 دج",
+        "delivery_office_price": "مكتب التوصيل 300 دج"
+    },
+    {
+        "wilaya_code": "32",
+        "wilaya_name": "البيض\nsur la route de MAHBOULA just a cote de sonelgaz en face la maison LG",
+        "address": "sur la route de MAHBOULA just a cote de sonelgaz en face la maison LG - EL BAYADI",
+        "delay": "2-4 ايام",
+        "price": "850 دج",
+        "delivery_office_price": "مكتب التوصيل 550 دج"
+    },
+    {
+        "wilaya_code": "34",
+        "wilaya_name": "برج بوعريريج\nRue laribi lakhdar cite 80 logts coperative deriere le centre commercial carrefour\n1-3 ايام",
+        "address": "Rue laribi lakhdar cite 80 logts coperative deriere le centre commercial carrefour",
+        "delay": "1-3 ايام",
+        "price": "600 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "35",
+        "wilaya_name": "بومرداس\ncité 350 Igts bt 21 au rez-de-chaussée\n1-2 ايام",
+        "address": "cité 350 Igts bt 21 au rez-de-chaussée",
+        "delay": "1-2 ايام",
+        "price": "500 دج",
+        "delivery_office_price": "مكتب التوصيل 350 دج"
+    },
+    {
+        "wilaya_code": "37",
+        "wilaya_name": "تندوف\nlocal n 02 cité kassabi kism 23 n 122 tindouf\n3-7 ايام",
+        "address": "local n 02 cité kassabi kism 23 n 122 tindouf",
+        "delay": "3-7 ايام",
+        "price": "1300 دج",
+        "delivery_office_price": "مكتب التوصيل 900 دج"
+    },
+    {
+        "wilaya_code": "38",
+        "wilaya_name": "تيسمسيلت\nplateau a cote e la salle des fetes BADRANE\n1-3 ايام",
+        "address": "plateau a cote e la salle des fetes BADRANE",
+        "delay": "1-3 ايام",
+        "price": "700 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "39",
+        "wilaya_name": "الوادي\nCité 400 logts centre ville EL OUED\n2-4 ايام",
+        "address": "Cité 400 logts centre ville EL OUED",
+        "delay": "2-4 ايام",
+        "price": "800 دج",
+        "delivery_office_price": "مكتب التوصيل 500 دج"
+    },
+    {
+        "wilaya_code": "40",
+        "wilaya_name": "خنشلة\nen face lyceé othmani abdelwahab la nouvelle ville",
+        "address": "en face lyceé othmani abdelwahab la nouvelle ville - khanchela",
+        "delay": "1-3 ايام",
+        "price": "700 دج",
+        "delivery_office_price": "مكتب التوصيل 450 دج"
+    },
+    {
+        "wilaya_code": "41",
+        "wilaya_name": "سوق أهراس\nRoute d'Alger, face au DR, KHELIFI",
+        "address": "Route d'Alger, face au DR, KHELIFI - souk ahres 0",
+        "delay": "1-3 ايام",
+        "price": "800 دج",
+        "delivery_office_price": "مكتب التوصيل 450 دج"
+    },
+    {
+        "wilaya_code": "42",
+        "wilaya_name": "تيبازة\nAadl 1700 BLOC 29 LOCAL C3\n1-2 ايام",
+        "address": "Aadl 1700 BLOC 29 LOCAL C3",
+        "delay": "1-2 ايام",
+        "price": "500 دج",
+        "delivery_office_price": "مكتب التوصيل 350 دج"
+    },
+    {
+        "wilaya_code": "43",
+        "wilaya_name": "ميلة\nrond point bousouf\n1-3 ايام",
+        "address": "rond point bousouf",
+        "delay": "1-3 ايام",
+        "price": "650 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "44",
+        "wilaya_name": "عين الدفلى\ncité nadjem mohamed, en face hotel NADJEM\n1-2 ايام",
+        "address": "cité nadjem mohamed, en face hotel NADJEM",
+        "delay": "1-2 ايام",
+        "price": "600 دج",
+        "delivery_office_price": "مكتب التوصيل 400 دج"
+    },
+    {
+        "wilaya_code": "47",
+        "wilaya_name": "غرداية\nRue cheikh abdelaziz el Thamini en face du collége cheikh 3 ben yazgen , ghardaia\n2-4 ايام",
+        "address": "Rue cheikh abdelaziz el Thamini en face du collége cheikh 3 ben yazgen , ghardaia",
+        "delay": "2-4 ايام",
+        "price": "800 دج",
+        "delivery_office_price": "مكتب التوصيل 500 دج"
+    },
+    {
+        "wilaya_code": "48",
+        "wilaya_name": "غليزان\nBoulevard Zemmoura ( en face CEM NOUVEAU)\n1-3 ايام",
+        "address": "Boulevard Zemmoura ( en face CEM NOUVEAU)",
+        "delay": "1-3 ايام",
+        "price": "600 دج",
+        "delivery_office_price": "مكتب التوصيل 450 دج"
+    },
+    {
+        "wilaya_code": "58",
+        "wilaya_name": "المنيعة\nlocal n 39 jnan bailek elmniaa\n3-7 ايام",
+        "address": "local n 39 jnan bailek elmniaa",
+        "delay": "3-7 ايام",
+        "price": "900 دج",
+        "delivery_office_price": "مكتب التوصيل 600 دج"
+    }
+]
