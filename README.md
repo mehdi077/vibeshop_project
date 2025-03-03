@@ -14,5 +14,7 @@ the idea was simple:
 - add a price margin for each product, and boom, you got yourself an online e-commerce store. 
 
 
-here is exactly how this web aoo works:
+here is exactly how this web app works: (fyi i am writing this, i didn't use an AI XD)
+
+i started by scraping the affiliate website, using selenium, and a usful method i found that helped me test and develop the scraper faster, wich is using a txt file, wich than i import it into the main python script, where when i run the script, i can experement with code without reruning the script from  the start, just by editing the txt file, and improved that by creating another python file, and importing that into the txt file so its easier to work on a .py instead of .txt while improving code in real time. (check out /)
 
