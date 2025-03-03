@@ -1,0 +1,141 @@
+[package]
+name = "application"
+version = "0.1.0"
+edition = "2021"
+license = "LicenseRef-FSL-1.1-Apache-2.0"
+
+[lib]
+doctest = false
+
+[dependencies]
+anyhow = { workspace = true }
+async-broadcast = { workspace = true }
+async-recursion = { workspace = true }
+async-trait = { workspace = true }
+async_lru = { path = "../async_lru" }
+async_zip = { workspace = true }
+async_zip_reader = { version = "0.1.0", path = "../async_zip_reader" }
+authentication = { path = "../../crates/authentication" }
+bytes = { workspace = true }
+chrono = { workspace = true }
+cmd_util = { path = "../cmd_util" }
+common = { path = "../common" }
+convex_fivetran_destination = { path = "../fivetran_destination" }
+convex_macro = { path = "../convex_macro" }
+csv-async = { workspace = true }
+database = { path = "../database" }
+either = { workspace = true }
+errors = { path = "../errors" }
+events = { path = "../events" }
+fastrace = { workspace = true }
+file_storage = { path = "../file_storage" }
+float_next_after = { workspace = true }
+function_runner = { path = "../function_runner" }
+futures = { workspace = true }
+futures-async-stream = { workspace = true }
+governor = { workspace = true }
+headers = { workspace = true }
+http = { workspace = true }
+http_client = { path = "../../crates/http_client" }
+humansize = { workspace = true }
+isolate = { path = "../isolate" }
+itertools = { workspace = true }
+keybroker = { path = "../keybroker" }
+lru = { workspace = true }
+maplit = { workspace = true }
+metrics = { path = "../metrics" }
+mime2ext = { workspace = true }
+model = { path = "../model" }
+node_executor = { path = "../../crates/node_executor" }
+num_cpus = { workspace = true }
+parking_lot = { workspace = true }
+pb = { path = "../pb" }
+proptest = { workspace = true, optional = true }
+proptest-derive = { workspace = true, optional = true }
+rand = { workspace = true }
+regex = { workspace = true }
+search = { path = "../search" }
+semver = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+shape_inference = { path = "../shape_inference" }
+short_future = { workspace = true }
+slugify = "0.1.0"
+sourcemap = { workspace = true }
+storage = { path = "../storage" }
+strum = { workspace = true }
+sync_types = { package = "convex_sync_types", path = "../../crates/convex/sync_types" }
+tempfile = { workspace = true }
+thiserror = { workspace = true }
+thousands = { workspace = true }
+tokio = { workspace = true }
+tokio-stream = { workspace = true }
+tokio-util = { workspace = true }
+tracing = { workspace = true }
+udf = { path = "../udf" }
+udf_metrics = { path = "../udf_metrics" }
+url = { workspace = true }
+usage_tracking = { path = "../../crates/usage_tracking" }
+value = { path = "../value" }
+vector = { path = "../vector" }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+libc = { workspace = true }
+
+[dev-dependencies]
+authentication = { path = "../../crates/authentication", features = [
+    "testing",
+] }
+common = { path = "../common", features = ["testing"] }
+database = { path = "../database", features = ["testing"] }
+errors = { path = "../errors", features = ["testing"] }
+events = { path = "../events", features = ["testing"] }
+function_runner = { path = "../function_runner", features = ["testing"] }
+isolate = { path = "../isolate", features = ["testing"] }
+keybroker = { path = "../keybroker", features = ["testing"] }
+metrics = { path = "../metrics", features = ["testing"] }
+model = { path = "../model", features = ["testing"] }
+must-let = { workspace = true }
+node_executor = { path = "../../crates/node_executor", features = ["testing"] }
+openidconnect = { workspace = true }
+pretty_assertions = { workspace = true }
+proptest = { workspace = true }
+proptest-derive = { workspace = true }
+runtime = { path = "../runtime", features = ["testing"] }
+search = { path = "../search", features = ["testing"] }
+shape_inference = { path = "../shape_inference", features = ["testing"] }
+storage = { path = "../storage", features = ["testing"] }
+udf = { path = "../udf", features = ["testing"] }
+usage_tracking = { path = "../../crates/usage_tracking", features = [
+    "testing",
+] }
+value = { path = "../value", features = ["testing"] }
+vector = { path = "../vector", features = ["testing"] }
+
+[features]
+testing = [
+    "authentication/testing",
+    "common/testing",
+    "database/testing",
+    "errors/testing",
+    "events/testing",
+    "function_runner/testing",
+    "isolate/testing",
+    "keybroker/testing",
+    "metrics/testing",
+    "model/testing",
+    "node_executor/testing",
+    "proptest",
+    "proptest-derive",
+    "runtime/testing",
+    "search/testing",
+    "storage/testing",
+    "shape_inference/testing",
+    "udf/testing",
+    "usage_tracking/testing",
+    "value/testing",
+    "vector/testing",
+]
+
+[lints]
+workspace = true

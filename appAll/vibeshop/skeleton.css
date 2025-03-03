@@ -1,0 +1,17 @@
+.skeleton {
+  background-color: #e0e0e0; /* Light gray background */
+  border-radius: 4px; /* Rounded corners */
+  animation: pulse 1.5s infinite; /* Pulse animation */
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}   

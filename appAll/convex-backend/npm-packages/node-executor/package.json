@@ -1,0 +1,44 @@
+{
+  "name": "node-executor",
+  "version": "0.0.0",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc && esbuild src/aws_lambda.ts --log-level=warning --bundle --sourcemap --platform=node --target=esnext --outfile=dist/aws_lambda.cjs && esbuild src/local.ts --log-level=warning --bundle --sourcemap --platform=node --target=esnext --outfile=dist/local.cjs",
+    "pretest": "rm -rf dist",
+    "build-test-modules": "esbuild test/modules/*.ts --format=esm --log-level=warning --bundle --sourcemap --platform=node --target=esnext --outdir=dist/tests/modules && cp test/modules/*.js dist/tests/modules && cp test/metadata.json dist/tests/metadata.json && cp -r test/external_modules dist/tests/external_modules",
+    "test": "vitest; npm run build-test-modules && esbuild test/integration-test.ts --log-level=warning --bundle --sourcemap --platform=node --target=esnext --outfile=dist/tests/integration-test.cjs && node --enable-source-maps dist/tests/integration-test.cjs"
+  },
+  "module": "esnext",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "archiver": "~6.0.1",
+    "commander": "^11.1.0",
+    "concat-stream": "^2.0.0",
+    "convex": "workspace:*",
+    "node-fetch": "^2.6.1",
+    "prettier": "3.4.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.171.0",
+    "@sendgrid/mail": "^7.7.0",
+    "@types/adm-zip": "^0.5.7",
+    "@types/archiver": "~6.0.0",
+    "@types/aws-lambda": "^8.10.106",
+    "@types/concat-stream": "^2.0.3",
+    "@types/node": "^18.17.0",
+    "@types/node-fetch": "^2.6.1",
+    "@types/uuid": "^10.0.0",
+    "auth0": "^4.3.1",
+    "esbuild": "0.25.0",
+    "googleapis": "^144.0.0",
+    "stripe": "^10.14.0",
+    "twilio": "^4.22.0",
+    "typescript": "~5.0.3",
+    "undici": "7.3.0",
+    "vitest": "~1.6.0",
+    "zod": "^3.24.0"
+  }
+}

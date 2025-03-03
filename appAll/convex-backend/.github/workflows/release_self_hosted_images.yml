@@ -1,0 +1,36 @@
+name: Release Self-Hosted Images
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_latest:
+        description: "Tag images as latest"
+        type: boolean
+        default: false
+        required: true
+  push:
+    branches:
+      - main
+    paths:
+      - "crates/model/src/migrations.rs"
+
+jobs:
+  release_backend:
+    uses: ./.github/workflows/release_local_backend.yml
+    with:
+      # Do not tag docker images triggered by migrations as latest.
+      tag_latest: ${{ github.event_name == 'workflow_dispatch' && inputs.tag_latest || false }}
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+
+  release_dashboard:
+    uses: ./.github/workflows/release_local_dashboard.yml
+    with:
+      # Do not tag docker images triggered by migrations as latest.
+      tag_latest: ${{ github.event_name == 'workflow_dispatch' && inputs.tag_latest || false }}
+    permissions:
+      contents: read
+      packages: write
+      id-token: write

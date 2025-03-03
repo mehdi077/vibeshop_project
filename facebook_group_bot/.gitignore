@@ -1,0 +1,7 @@
+.*
+
+!.gitignore
+
+_*
+
+chrome_profiles/

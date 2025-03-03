@@ -1,0 +1,17 @@
+# Ignore all hidden files and folders
+.*
+
+# Allow tracking of .gitignore itself
+!.gitignore
+
+# Ignore node_modules
+node_modules/
+
+# Ignore ops directory
+ops/
+
+# Ignore creatives directory
+creatives/
+
+# Ignore deploy.sh script
+deploy.sh

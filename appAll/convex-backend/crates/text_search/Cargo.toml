@@ -1,0 +1,35 @@
+[package]
+name = "text_search"
+version = "0.1.0"
+edition = "2021"
+license = "LicenseRef-FSL-1.1-Apache-2.0"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+doctest = false
+
+[dependencies]
+anyhow = { workspace = true }
+byteorder = { workspace = true }
+common = { path = "../common" }
+fastrace = { workspace = true }
+maplit = { workspace = true }
+metrics = { path = "../metrics" }
+proptest = { workspace = true, optional = true }
+sucds = { workspace = true }
+tantivy = { workspace = true }
+tantivy-common = { workspace = true }
+value = { path = "../value" }
+
+[dev-dependencies]
+cmd_util = { path = "../cmd_util" }
+common = { path = "../common", features = ["testing"] }
+metrics = { path = "../metrics", features = ["testing"] }
+proptest = { workspace = true }
+value = { path = "../value", features = ["testing"] }
+
+[features]
+testing = ["common/testing", "metrics/testing", "proptest", "value/testing"]
+
+[lints]
+workspace = true
